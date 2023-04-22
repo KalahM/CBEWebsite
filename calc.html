@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <link rel="stylesheet" href="calc.css">
+  <li><a href="index.html">Home</a></li>
+    <title>Budgeting Calculator</title>
+    <script type="text/javascript">
+        function calculateBudget() {
+            // Get input values
+            var totalIncome = parseFloat(document.getElementById("totalIncome").value);
+            
+            // Calculate budget allocations based on percentages
+            var housingAllocation = totalIncome * 0.28;
+            var dailySpendingAllocation = totalIncome * 0.20;
+            var taxesAllocation = totalIncome * 0.15;
+            var debtAllocation = totalIncome * 0.08;
+            var insuranceAllocation = totalIncome * 0.09;
+            var retirementAllocation = totalIncome * 0.10;
+            var savingsAllocation = totalIncome * 0.10;
+            
+            // Display budget allocations
+            document.getElementById("housingAllocation").innerHTML = "Housing: $" + housingAllocation.toFixed(2);
+            document.getElementById("dailySpendingAllocation").innerHTML = "Daily Spending: $" + dailySpendingAllocation.toFixed(2);
+            document.getElementById("taxesAllocation").innerHTML = "Taxes: $" + taxesAllocation.toFixed(2);
+            document.getElementById("debtAllocation").innerHTML = "Debt: $" + debtAllocation.toFixed(2);
+            document.getElementById("insuranceAllocation").innerHTML = "Insurance: $" + insuranceAllocation.toFixed(2);
+            document.getElementById("retirementAllocation").innerHTML = "Retirement: $" + retirementAllocation.toFixed(2);
+            document.getElementById("savingsAllocation").innerHTML = "Savings: $" + savingsAllocation.toFixed(2);
+        }
+    </script>
+</head>
+<body>
+    <h1>Budgeting Calculator</h1>
+    <label for="totalIncome">Total Income:</label>
+    <input type="number" id="totalIncome" step="0.01">
+    <button onclick="calculateBudget()">Calculate</button>
+    <h2>Budget Allocations</h2>
+    <p id="housingAllocation"></p>
+    <p id="dailySpendingAllocation"></p>
+    <p id="taxesAllocation"></p>
+    <p id="debtAllocation"></p>
+    <p id="insuranceAllocation"></p>
+    <p id="retirementAllocation"></p>
+    <p id="savingsAllocation"></p>
+</body>
+</html>

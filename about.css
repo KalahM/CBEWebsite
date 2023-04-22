@@ -1,0 +1,52 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #e3ebed;
+}
+p {
+  text-align: center;
+  font-family: 'Canela', serif;
+  color: #5d8ec6;
+  font-size: 30px;
+}
+
+/* Use Canela font for the h1 */
+h1 {
+  color: #9ab3d0;
+  font-size: 100px;
+  font-family: 'Canela', serif;
+  text-align: center;
+}
+h2 {
+  background-color: #e3ebed;
+  font-family: 'Canela', serif;
+  font-size: 40px ;
+  text-align: center;
+  color: #7ea4ce;
+}
+ul {
+  text-align: center;
+  font-family: Arial, Helvetica, serif;
+  color: #5d8ec6;
+  font-size: 30px;
+} 
+li {
+  color: #5181b8;
+  padding-bottom: 10px;
+  font-family: 'Canela', serif;
+  text-align: center;
+  font-size: 30px ;
+  list-style-type: none;
+}
+li {
+  color: #9ab3d0;
+  font-family: Arial, Helvetica, serif;
+  text-align: center;
+  font-size: 25px ;
+}
+h3 {
+  color: #618ec2;
+  font-family: 'Canela', serif;
+  text-align: center;
+  font-size: 35px;
+}

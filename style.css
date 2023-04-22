@@ -1,0 +1,90 @@
+/* Import the Canela font */
+@import url('https://fonts.googleapis.com/css2?family=Canela&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #e3ebed;
+}
+
+/* Use Canela font for the body text */
+body {
+  background-color: #e3ebed;
+  font-family: 'Canela', serif;
+  font-size: 60px;
+  text-align: center;
+  color: #7ea4ce;
+}
+
+/* Use Canela font for the title */
+title {
+  font-family: 'Canela', serif;
+  font-size: 60px;
+  text-align: center;
+  color: #4f94e3;
+}
+
+/* Use Canela font for the paragraphs */
+p {
+  text-align: center;
+  font-family: 'Canela', serif;
+  color: #5d8ec6;
+  font-size: 30px;
+}
+
+/* Use Canela font for the h1 */
+h1 {
+  color: #9ab3d0;
+  font-size: 100px;
+  font-family: 'Canela', serif;
+  text-align: center;
+}
+
+/* Use Canela font for the h2 */
+h2 {
+  color: #5181b8;
+  font-family: 'Canela', serif;
+  text-align: center;
+  font-size: 36px;
+  padding-bottom: -15px;
+}
+
+/* Use Canela font for the h3 */
+h3 {
+  color: #9ab3d0;
+  font-family: 'Canela', serif;
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+
+/* Use Canela font for the list items */
+li {
+  color: #9ab3d0;
+  font-family: 'Canela', serif;
+  text-align: center;
+  font-size: 40px;
+  list-style-type: none;
+  display: inline;
+}
+
+/* Use Canela font for the header */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 2px #9ab3d0;
+  height: 100px;
+  width: 600px;
+  margin: 0 auto;
+  font-family: 'Canela', serif;
+}
+button {
+  font-family: 'Canela', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 600px;
+  background: white;
+}
